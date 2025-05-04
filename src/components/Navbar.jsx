@@ -15,12 +15,12 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.screenY > 10);
+      setIsScrolled(window.scrollY > 10);
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  });
+  }, []);
   return (
     <nav
       className={cn(
@@ -34,7 +34,8 @@ const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground">Ayushman</span> Dwivedi
+            <span className="text-glow text-foreground">Ayushman's</span>{" "}
+            Portfolio
           </span>
         </a>
         {/* Desktop version */}
