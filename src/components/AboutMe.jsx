@@ -42,7 +42,7 @@ const AboutMe = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Developemt</h4>
+                  <h4 className="font-semibold text-lg">Web Development</h4>
                   <p className="text-muted-foreground">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Molestias, veniam.
